@@ -3,9 +3,10 @@
 
 pragma solidity ^0.8.0;
 
-import "https://github.com/Patrickmitech/ERC20/blob/main/IERC20.sol";
-import "https://github.com/Patrickmitech/ERC20/blob/main/extensions/IERC20Metadata.sol";
-import "https://github.com/Patrickmitech/ERC20/blob/main/utils/Context.sol";
+
+import "./IERC20.sol";
+import "./extensions/IERC20Metadata.sol";
+import "../../utils/Context.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
